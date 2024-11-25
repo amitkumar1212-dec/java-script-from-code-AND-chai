@@ -13,3 +13,7 @@ const JsUser = {
 
 }
 console.log(JsUser["lastLoginDays"])
+JsUser.greeting = function(){
+    console.log("Hello JS User")
+}
+console.log(greeting)
